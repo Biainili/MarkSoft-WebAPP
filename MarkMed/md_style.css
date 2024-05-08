@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.markSec{
+    display: none;
+}
+
+
+.markSec {
+    width: 100%;
+    min-height: 558px;
+    padding-inline: 70px;
+    background: #0B3E51;
+    border-top: 1px solid #4D99CF80;
+    height: 100vh;
+}
+
+.sectInn {
+    max-width: 538px;
+    width: 100%;
+    min-height: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.innTop {
+    width: 100%;
+    min-height: 62px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itemTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 6px;
+}
+
+.topItem {
+      width: 100%;
+    min-height: 31px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #F7FCFF;
+    align-items: center;
+    padding-inline: 8px;
+}
+
+.topIt1 {
+    display: flex;
+    align-items: center;
+}
+
+.topItem button {
+    font-family: "Montserratarm-Regular";
+    width: 120px;
+    height: 36px !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: -0.02em;
+    height: 17px;
+    color: #F7FCFF;
+    background-color: #0B3E51;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+#see_price_id:hover {
+    cursor: pointer;
+    color: #4D99CF;
+    border-bottom: 2px solid #4D99CF;
+}
+
+.itemTop:hover {
+    cursor: pointer;
+
+}
+
+.vect2 {
+    display: none;
+}
+.vect:hover{
+    cursor: pointer;
+}
+
+
+
+
+.opClDv {
+    max-width: 538px;
+    width: 100%;
+    min-height: 285px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 35px;
+    padding-block: 16px;
+    display: none;
+}
+
+.listDv ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.listDv ul li {
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.listDv ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.imgDv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.innBot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.innBot a {
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.innBot a button {
+    width: 100%;
+    height: 100%;
+    background: #4D99CF;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.innBot button:hover {
+    cursor: pointer;
+}
+
+
+a button:hover{
+    background-color: #3482BA;
+}
+ a button:focus{
+    background-color: #2172AC;
+ }
+
+
+@media screen and (max-width: 620px) {
+.opClDv{
+    padding-inline: 0px;
+    padding-left: 35px;
+}
+}
+
+@media screen and (max-width: 570px) {
+.imgDv{
+    display: none;
+}
+}
+
+
+/* @media screen and (max-width: 442px) {
+     .topItem{
+        padding-inline: 0px;  
+     }   
+} */
+
+@media screen and (max-width: 428px) {
+    .markSec{
+        padding-inline: 24px;
+    }
+    .topItem {
+        padding-inline: 8px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 428px) {
+    .markSec {
+        padding-inline: 16px;
+    }
+    .opClDv {
+        padding-left: 27px;
+    }
+}

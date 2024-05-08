@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index_med.css">
+    <link rel="stylesheet" href="md_style.css">
+    <title>MarkMed</title>
+    <link rel="shortcut icon" href="./img_med/icon_bar_menu_1.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header  START -->
+    <header>
+        <img src="./img_med/MARKMEDLogo 2.svg" class="logo_img" alt="MarkMed" onclick="reloadFunction()" />
+        <div class="header_container">
+            <img src="./img_med/MarkSoftLogo.svg" alt="MarkSoft" id="logo_id" onclick="openIndex('../index.html')" />
+            <ul class="nav_bar">
+                <li id="services">Ծառայություններ</li>
+                <li id="see_the_price">Տեսնել գինը</li>
+            </ul>
+
+            <div class="nav_bar_open" id="open_bar">
+                <div class="nav_bar_open_logo">
+                    <img src="./img_med/icon_bar_menu_1.svg" alt="/" />
+                    <img src="./img_med/icon_bar_menu_2.svg" alt="/" />
+                </div>
+                <div class="bar">
+                    <ul>
+                        <li>Բժշկի մոդուլ</li>
+                        <li>Պացիենտի մոդուլ</li>
+                        <li>Որոնման մոդուլ</li>
+                        <li>Դեղատան մոդու</li>
+                        <li>Լաբորատոր-հիվանդանոց կապ</li>
+                    </ul>
+                    <ul class="for_this_ul">
+                        <li>Ֆինանսական մոդուլ</li>
+                        <li>iOS, Android</li>
+                        <li>Անալիտիկ վերլուծություն</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="container_left_bar">
+                <div class="leng">
+                    <img src="./img_med/leng_img.svg" alt="leng" />
+                    <h4>Հայ</h4>
+                </div>
+                <button class="btn_buy" onclick="bnt_buy()">
+                    Գնել
+                </button>
+                <img src="./img_med/Icon_menu.svg" id="icon_menu" alt="menu" />
+            </div>
+        </div>
+    </header>
+    <!-- Header  END -->
+
+
+
+    <!-- arandzin page  start-->
+    <section class="markSec">
+        <div class="sectInn">
+            <div class="innTop">
+                <div class="topItem">
+                    <div class="itemTop" onclick="openLi()">
+                        <span class="itTopSp">Ծառայություններ</span>
+                        <button>
+                            <img class="vect" src="./img/Vector.svg" alt="vectot">
+                        </button>
+                    </div>
+                    <div class="opClDv">
+                        <div class="listDv">
+                            <ul>
+                                <li>
+                                    <a href="#">Բժշկի մոդուլ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Պացիենտի մոդուլ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Որոնման մոդուլ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Դեղատան մոդուլ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Լաբորատոր-հիվանդանոց կապ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ֆինանսական մոդուլ</a>
+                                </li>
+                                <li>
+                                    <a href="#">iOS, Android</a>
+                                </li>
+                                <li>
+                                    <a href="#">Անալիտիկ վերլուծություն</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="imgDv">
+                            <img src="./img/logoM.svg" alt="logoMark">
+                        </div>
+                    </div>
+                </div>
+                <div class="topItem topIt1">
+                    <button id="see_price_id" onclick="openIndex_see_more('index_med.html')">Տեսնել գինը</button>
+                </div>
+            </div>
+            <div class="innBot">
+                <a href="#">
+                    <button>Գնել</button>
+
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- arandzin page  end -->
+
+
+
+
+
+    <!-- MAIN  START -->
+    <div class="send">
+        <div class="send_container">
+            <div class="text_container_for_messege">
+                <h5>Շնորհակալություն, Ձեր հարցումն ուղարկված է։</h5>
+                <span>Մեր մասնագետը կապ կհաստատի Ձեզ հետ։</span>
+            </div>
+            <img src="./img_med/heart_icon_icon.svg" alt="/" />
+        </div>
+    </div>
+
+
+
+
+    <div class="see_more">
+        <div class="see_more_container">
+            <div class="see_more_container_left">
+                <span>
+                    Պատմեք մեզ մի փոքր Ձեր բիզնեսի մասին, և մեր մասնագետը կապ կհաստատի Ձեզ հետ։ Մեր մասնագետը կտրամադրի
+                    համակարգի խորը և ընդլայնված ցուցադրություն և կպատասխանի Ձեր բոլոր հարցերին։
+                </span>
+                <img src="./img_med/heart_icon_icon.svg" alt="/" />
+            </div>
+            <form>
+                <div class="see_more_container_right">
+                    <div class="input_typs" id="name">
+                        <label for="first_name">Անուն Ազգանուն Հայրանուն *</label>
+                        <input type="text" id="first_name" placeholder="Անուն Ազգանուն Հայրանուն" name="first_name"
+                            required>
+                    </div>
+                    <div class="input_typs" id="email">
+                        <label for="email">Էլ․ հասցե *</label>
+                        <input type="text" id="email_input" placeholder="mail@example.com" name="email" required>
+                    </div>
+                    <div class="input_typs" id="tel">
+                        <label for="tel">Հեռ․համար *</label>
+                        <input type="text" id="tel_input" placeholder="+374 XX XXX XXX" name="tel" required>
+                    </div>
+                    <div class="input_typs" id="country">
+                        <label for="country">Նշել պետությունը *</label>
+                        <input type="text" id="country_input" placeholder="Նշել պետությունը" name="country" required>
+                    </div>
+                    <div class="input_typs" id="company_name">
+                        <label for="company_name">Ընկերության անվանում *</label>
+                        <input type="text" id="company_name_input" placeholder="Ընկերության անվանում"
+                            name="company_name" required>
+                    </div>
+                    <div class="input_typs" id="notes">
+                        <label for="notes">Նշել պաշտոնը *</label>
+                        <input type="text" id="notes_input" placeholder="Նշել պաշտոնը" name="job_title" required>
+                    </div>
+                    <div class="input_typs" id="massage">
+                        <label for="massage">Թողնել հաղորդագրություն*</label>
+                        <textarea type="text" id="job_title_massage" cols="30" rows="10" placeholder="Հաղորդագրություն"></textarea>
+                    </div>
+                </div>
+                <button onclick="sendFunction()" id="send_id">Հաստատել</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="main_page">
+        <section class="section_a">
+            <div class="left_container_a">
+                <div class="markmed_logo_a">
+                    <img src="./img_med/icon_a_1.svg" alt="mark med" class="icon_a_1" />
+                    <img src="./img_med/icon_a_2.svg" alt="mark med" class="icon_a_2" />
+                </div>
+                <span>Բժշկական CRM համակարգը հիվանդանոցի կառավարման համապարփակ և ինտեգրված համակարգ է, որը նախատեսված է
+                    հիվանդանոցային գործառնությունների բոլոր ասպեկտները կառավարելու համար, ինչպիսիք են բժշկական,
+                    ֆինանսական և
+                    այլ ասպեկտներ։ Այն ներառում է էլեկտրոնային առողջապահական գրառումների, վերլուծական հաշվետվությունների
+                    հսկայական շտեմարան։
+                </span>
+                <button class="btn_buy_now_a" onclick="bnt_buy()">գՆԵԼ ՀԱՄԱԿԱՐԳԸ</button>
+            </div>
+            <div class="right_container_a"></div>
+        </section>
+
+        <!-- <section class="section_b">
+            <div class="containet_b">
+                <div class="titel_CMR_container">
+                    <h2>MarkMed համակարգ</h2>
+                    <span>Կարճ վիդեո</span>
+                </div>
+                <div class="container_video_b">
+                    <iframe class="video_style" src="https://www.youtube.com/embed/fyaI4-5849w?si=3skB8p25SVGgsT63"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="section_c">
+            <h4>Հիվանդանոցի կառավարման համակարգի մոդուլ</h4>
+            <div class="modul_container_c">
+
+                <div class="item_c">
+                    <img src="./img_med/modul_1IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Բժշկի մոդուլ</h5>
+                    <span>Բժիշկները մուտք գործելով համակարգ կարող են կատարել իրենց պատկանող բոլոր գործառույթները:
+                        Համակարգը
+                        թույլ է տալիս պահպանել փաստաթղթերը էլեկտրոնային
+                        ֆորմատով։ Արդյունքում նրանք կարող են ստեղծել․
+                    </span>
+                    <ul>
+                        <li>հիվանդների պատմությու</li>
+                        <li>հիվանդների ժամանակացույցը</li>
+                    </ul>
+                </div>
+                <div class="item_c">
+                    <img src="./img_med/modul_2IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Պացիենտի մոդուլ</h5>
+                    <span>Պացիենտը կարող է տեսնել իր անձնական բժշկական պատմությունը ըստ բուժհաստատությունների կողմից
+                        լրացված
+                        տվյալների։ Կարող է տեսնել․
+                    </span>
+                    <ul>
+                        <li>ախտորոշումները</li>
+                        <li>լաբորատոր հետազոտությունները</li>
+                        <li>այցերի մասին տեղեկությունը</li>
+                    </ul>
+                </div>
+                <div class="item_c">
+                    <img src="./img_med/modul_3IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Որոնման մոդուլ</h5>
+                    <span>Համակարգը մատուցում է պարզ և հարմարեցված որոնման համակարգ։
+                        Որոնման բաժնում արագ տվյալներ փնտրելու համար առանձնացվել է «Բժիշկ» և «Պացիենտ» բաժինները
+                        «Ընդհանուր»
+                        բաժնից, ինչը թույլ է տալիս արագ և արդյունավետ կատարել գործողությունը։
+                    </span>
+                </div>
+
+                <div class="item_c">
+                    <img src="./img_med/modul_4IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Դեղորայքի մոդուլ</h5>
+                    <span>Հիվանդանոցում ներքին դեղատուն կամ դեղերի խանութ ունենալը շատ կարևոր տարր է: Դեղագործը կարող է
+                        կառավարել բոլոր գործողությունները՝ կապված ամենօրյա գործունեության, ֆինանսական գործունեության,
+                        առքուվաճառքի, ֆինանսական հաշվետվությունների կամ հաշվեկշռի, շահույթի և վնասի և այլնի հետ:
+                    </span>
+                </div>
+                <div class="item_c">
+                    <img src="./img_med/modul_5IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Լաբորատոր-հիվանդանոց կապ</h5>
+                    <span>Լաբորատորիաների և հիվանդանոցների կապը թույլ է տալիս ստանալ հիվանդների հանձնած թեստի
+                        պատասխանները,
+                        որը ավտոմատացված համակարգի շնորհիվ լաբորատորիայից կուղարկվի տվյալ հիվանդանոց։
+                    </span>
+                </div>
+                <div class="item_c">
+                    <img src="./img_med/modul_6IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Ֆինանսական մոդուլ</h5>
+                    <span>Համակարգն ապահովում է տվյալների անխափան, ավտոմատացված փոխանակում, ընդլայնելով ֆինանսական
+                        հաշվառման
+                        հնարավորությունները և հնարավորություն տալով ճշգրիտ, ժամանակին ֆինանսական հաշվետվություններ
+                        ներկայացնել։
+                    </span>
+                </div>
+
+                <div class="item_c">
+                    <img src="./img_med/modul_7IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Հեռախոսի հավելվածներ
+                        (iOS, Android)</h5>
+                    <span>Հավելվածներ պացիենտի և բժշկի կապը ապահովելու և գործընթացը ավելի արագացնելու համար։
+                    </span>
+                </div>
+                <div class="item_c">
+                    <img src="./img_med/modul_8IMG.svg" alt="/" class="modulIMG" />
+                    <h5>Անալիտիկ վերլուծություն</h5>
+                    <span>Համակարգում ներառված են այն գործիքները, որոնք թույլ են տալիս դուրս հանել ցանկացած
+                        հաշվետվություն։
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="section_d">
+            <h4>Համակարգի հիմնական ծառայությունները</h4>
+            <div class="container_d">
+                <div class="doc_img_d"></div>
+                <ul>
+                    <li> <span class="first_d_li">Համապատասխան ինտերֆեյս բժիշկների, բուժքույրերի, հիվանդների և այլնի
+                            համար:</span></li>
+                    <li> <span>Հեռահար բժշկության ապահովում</span></li>
+                    <li><span>Պացիենտի առցանց ժամանակացույցի ստեղծում</span></li>
+                    <li><span>Տարաբնույթ հաշվետվությունների գեներացում</span></li>
+                    <li><span>Վիճակագրական վերլուծությունների գեներացում</span></li>
+                    <li><span>Անվտանգ տվյալների բազա</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_f">
+            <h4>Ինչու ընտրել մեր ծրագիրը</h4>
+            <div class="containet_f">
+
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5>Ծրագրային աջակցություն</h5>
+                        <span>Մեր աշխատակիցները 24/7 ռեժիմով պատրաստ են լուծել ցանկացած ծրագրային խնդիր։</span>
+                    </div>
+                </div>
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5>Տվյալների անվտանգություն</h5>
+                        <span>Նորագույն տեխնոլոգիաներով կոդավորված այս համակարգը կանխարգելում է տվյալների
+                            արտահոսքը։</span>
+                    </div>
+                </div>
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5 class="for_this_h5">Հաճախորդի
+                            անվտանգություն</h5>
+                        <span>
+                            սպասարկման երաշխիք
+                            <br>
+                            ծրագրային ապահովում
+                            <br>
+                            անվտանգության ապահովում
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5 class="for_this_h5">Փաստաթղթերի
+                            կառավարում</h5>
+                        <span>Համակարգը թույլ է տալիս հաշվառել և վերահսկել ցանկացած ֆորմատի փաստաթուղթ։</span>
+                    </div>
+                </div>
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5>Ծրագրային թարմացումներ</h5>
+                        <span>Ավտոմատացված ծրագրային թարմացումներ, որոնք էլ ավելի կհեշտացնեն հիվանդանոցի կառավարման
+                            համակարգը:</span>
+                    </div>
+                </div>
+                <div class="item_f">
+                    <div class="item_f_card">
+                        <img src="./img_med/lilili.svg" alt="/" />
+                        <h5>Ժամանակակից դիզայն</h5>
+                        <span>Համապարփակ և պարզ գործիքներ՝ նախատեսված օգտատերերի հեշտության համար:</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="section_g">
+        <h3>
+            Ավտոմատացրեք և օպտիմիզացրեք հիվանդանոցային համակարգը
+            MARKMED-ի հետ
+        </h3>
+    </section> -->
+        <footer>
+            <div class="footer_container">
+                <div class="footer_logo_container">
+                    <img src="./img_med/logo_footer_img.svg" alt="Mark Med" />
+                    <h4>Software development compan</h4>
+                </div>
+                <div class="footer_tel_container">
+                    <img src="./img_med/icon_tel_footer.svg" alt="tel_icon" />
+                    <a>+374 33 13 44 44</a>
+                </div>
+                <div class="footer_email_container">
+                    <img src="./img_med/icon_email_footer.svg" alt="email_icon" />
+                    <a>info@marksoft.am</a>
+                </div>
+                <div class="footer_map_container">
+                    <img src="./img_med/icon_footer_map.svg" alt="map_icon" />
+                    <a>ք․Երևան, Բաղրամյան 53</a>
+                </div>
+            </div>
+            <h2>
+                2024 ՄԱՐԿՍՈՖԹ ՍՊԸ։ Բոլոր իրավունքները պաշտպանված են։
+            </h2>
+        </footer>
+        <!-- MAIN  END -->
+        <script src="./script_med.js"></script>
+</body>
+
+</html>

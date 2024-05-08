@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/title.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/animate/animate.min.css">
+    <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/jobs.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./media/indexMedia.css">
+    <link rel="stylesheet" href="./style/aboute.css">
+    <link rel="stylesheet" href="./style/areas.css">
+    <title>Marksoft Ոլորտներ</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <div class="content-areas">
+        <header>
+            <div class="navbar-height">
+                <div class="navbar-fixit">
+                    <div class="contnet-colum">
+                        <div class="navbar" id="navbar">
+                            <div class="navbar-logo" id="navbar-logo"></div>
+                            <div class="nav">
+                                <ul class="navbar-menu">
+                                    <li>
+                                        <a href="./aboute.html">Մեր մասին</a>
+                                    </li>
+                                    <li>
+                                        <a href="./service.html">Ծառայություններ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./Areas.html">Ոլորտներ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./programs.html">Ծրագրեր</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="login-navbar">
+                                <div class="content-lenguage">
+                                    <img src="./img/earth-grid1.svg" alt="MarkSoft" class="img-nav">
+                                    <h1>Հայ</h1>
+                                </div>
+                                <div class="navbar-btn">
+                                    <button>ՄՈՒՏՔ</button>
+                                </div>
+                                <div class="navbar-icon"></div>
+                                <div class="navbar-icon-open"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="navbar-menu">
+                            <li>
+                                <a href="./aboute.html">Մեր մասին</a>
+                            </li>
+                            <li>
+                                <a href="./service.html">Ծառայություններ</a>
+                            </li>
+                            <li>
+                                <a href="./Areas.html">Ոլորտներ</a>
+                            </li>
+                            <li>
+                                <a href="./programs.html">Ծրագրեր</a>
+                            </li>
+                        </ul>
+                        <div class="content-header-line"></div>
+                        <div class="login-navbar1">
+                            <div class="content-lenguage">
+                                <img src="./img/earth-grid1.svg" alt="MarkSoft" class="img-nav">
+                                <h1>Հայ</h1>
+                            </div>
+                            <div class="navbar-btn">
+                                <button>ՄՈՒՏՔ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <section>
+            <div class="con-aboute area-abote">
+                <div class="row  area-flex">
+                    <div class="col-lg-5 lg5">
+                        <div class="new-area text-start mx-auto text-on wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3 ms-4 mj">Ոլորտներ</h1>
+                            <span>«Մարկսոֆթ» ընկերությունն ունի տարբեր ոլորտներում աշխատելու փորձ: Մենք
+                                համատեղում ենք ոլորտին հատուկ գիտելիքները նորարարական լուծումների հետ՝ մեր հաճախորդների
+                                համար ամենաթույն ծրագրային արտադրանք ստեղծելու նպատակով: Մենք օգնում ենք կառուցել
+                                նախագիծ զրոյից՝ սկսելով բիզնեսի վերլուծությունից և գաղափարը վերածելով լիարժեք նախագծի:
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start text-lg-end wow slid-areas slideInRight" data-wow-delay="0.1s">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="content-work area-work">
+                <div class="wrapper-work">
+                    <div class="content-work-info area-info-work">
+                        <div class="work-menu">
+                            
+                            <ul class="menu-areas" id="menu-areas" onmousedown="startDragging(event)" onmouseup="stopDragging()">
+                                <li id="li1" onclick="toggleBlocks(1)" >Ֆինանսներ և բանկեր</li>
+                                <li id="li2" onclick="toggleBlocks(2)">Ճամփորդություն և հյուրընկալություն</li>
+                                <li id="li3" onclick="toggleBlocks(3)">Առցանց առևտուր</li>
+                                <li id="li4" onclick="toggleBlocks(4)">Սպորտ</li>
+                                <li id="li5" onclick="toggleBlocks(5)">Կառավարություն</li>
+                                <li id="li6" onclick="toggleBlocks(6)">Սնունդ և խմիչքներ</li>
+                                <li id="li7" onclick="toggleBlocks(7)">Հյուրանոցներ և տուրիզմ</li>
+                                <li id="li8" onclick="toggleBlocks(8)">Էլեկտրոնային ուսուցում</li>
+                                <li id="li9" onclick="toggleBlocks(9)">Ծառայություններ</li>
+                                <li id="li10" onclick="toggleBlocks(10)">Արտադրություն</li>
+                                <li id="li11" onclick="toggleBlocks(11)">Առողջապահություն</li>
+                                <li id="li12" onclick="toggleBlocks(12)">Անշարժ գույք</li>
+                            </ul>
+
+                        </div>
+                        <div class="old-line old-line11">
+                            <div class="line-old1"></div>
+                        </div>
+                        <div class="areas-info">
+                            <div class="wrapper-area" id="fire">
+                                <div class="area-text">
+                                    <h1>Ֆինանսներ և բանկեր</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը ստեղծում է լուծումների ամբողջական CRM համակարգ
+                                        ֆինանսական ոլորտի համար, ինչպիսիք են էլեկտրոնային դրամապանակները, բանկային
+                                        ծրագրերը, ֆինանսական կառավարման հավելվածները և այլն: Մենք օգտագործում ենք
+                                        նորագույն տեխնոլոգիաներ ֆինանսական ոլորտում գործընթացները ավտոմատացնելու համար:
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Բանկային հավելվածներ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>էլեկտրոնային դրամապանակներ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մեծ տվյալներ և ֆինանսական վերլուծություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Տվյալների անվտանգության ապահովում </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հաճախորդի անվտանգության ապահովում</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire1">
+                                <div class="area-text">
+                                    <h1>Ճամփորդություն և հյուրընկալություն</h1>
+                                    <div class="area-line"></div>
+                                    <span>«Մարկսոֆթ» ընկերության թիմը առաջարկում է արտագնա և ներգնա տուրիզմը կառավարելու
+                                        մի համակագ, որը թույլ է տալիս գրանցել և պահպանել հաճախորդի մասին ամբողջական
+                                        տեղեկատվությունը։ Կանոնակարգված ճկուն համակարգի միջոցով բաց չի մնա ցանցակացած
+                                        հաճախորդի հայտ։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ամրագրման կառավարում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մարքեթինգային վերլուծություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ճանապարհորդների տվյալները համախմբում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հյուրի ամբողջական պրոֆիլ՝ ամրագրումից մինչև վճարում </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Գնային թարմացումների ծանուցում հավատարիմ հաճախորդներին</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire2">
+                                <div class="area-text">
+                                    <h1>Առցանց առևտուր</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        Ներկայումս էլեկտրոնային առևտրի ոլորտը դինամիկ աճում և ձևափոխվում է սպառողների
+                                        անընդհատ փոփոխվող կարիքներին համապատասխան: Հասկանալով դրա հիմնական սկզբունքները,
+                                        միտումները և մարտահրավերները՝ «Մարկսոֆթ» ընկերությունը առաջարկում է համակարգ,
+                                        որով ձեռներեցները կարող են իրացնել իրենց բիզնեսը առցանց հարթակում։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Բջջային հավելված` oգտագործողակենտրոն ինտերֆեյս դիզայն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Անվտանգության կայուն միջոցներ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Վերահսկել ֆինանսական միջոցները</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Համաշխարհային հասանելիություն, տեղական ազդեցություն.</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ավտոմատացման գործիքներ գույքագրման կառավարման
+                                            և պատվերի մշակման համար:</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire3">
+                                <div class="area-text">
+                                    <h1>Սպորտ</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        Փոխեք մարզասրահի կառավարման համակարգը «Մարկսոֆթ» ընկերության կողմից առաջարկած
+                                        CRM համակարգով։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>CRM համակարգ` oգտագործողակենտրոն ինտերֆեյս դիզայն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մարզումների ժամանակացույց</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Վերահսկել ֆինանսական միջոցները</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հետևել և վերլուծել հաճախորդների տվյալները </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Բջջային հասանելիություն ցանկացած ժամանակ, ցանկացած վայրում</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire4">
+                                <div class="area-text">
+                                    <h1>Կառավարություն</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է CRM hամակարգ, որը հնարավորություն է
+                                        տալիս ամբողջական էլեկտրոնային փաստաթղթերի և առաջադրանքների կառավարում, որը
+                                        կրճատում է թղթի հոսքը դեպի կազմակերպություն:
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Տվյալների անվտանգություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Պարզեցված հանրային ծառայություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>CRM համակարգ` oգտագործողակենտրոն ինտերֆեյս դիզայն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Կայուն համակարգ փաստաթղթաշրջանառությունն իրականացնելու համար </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Արագացնել գործերի կառավարումը՝ խնդիրների արդյունավետ լուծման համար</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire5">
+                                <div class="area-text">
+                                    <h1>Սնունդ և խմիչքներ</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է CRM hամակարգ, որը հնարավորություն է
+                                        տալիս լիարժեք կառավարել ռեստորանների, սրճարանների, ժամանցի վայրերի ներքին շարժը։
+                                        Համակարգում երևում է պահեստում գտնվող ապրանքների ժամկետները, ինչը
+                                        հնարավորություն է տալիս տեղյակ լինել այս կամ այն ապրանքի ժամկետի ավարտի կամ ոչ
+                                        պիտանելիության մասին։ Համակարգում ավտոմատացված են բոլոր հաշվարկները, երևում են
+                                        սեղանները, սրահները այն ամենն ինչն անհրաժեշտ է բիզնեսը համակարգելու համար։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Պահեստների կառավարման համակարգ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հաճախորդի հաշվի ավտոմատացված հաշվարկման ծրագիր</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Պատվերի հասանելիություն համակարգում՝ կապ խոհանոցի և մատուցողի միջև</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Կայուն համակարգ փաստաթղթաշրջանառությունն իրականացնելու համար </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Արագացնել գործերի կառավարումը՝ խնդիրների արդյունավետ լուծման համար</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire6">
+                                <div class="area-text">
+                                    <h1>Հյուրանոցներ և տուրիզմ</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է հյուրանոցային բիզնեսի ավտոմատացված CRM
+                                        համակարգ, որը հնարավորություն է տալիս ունենալու մեծ և անվտանգ տվյալների բազա և
+                                        հասանելիություն այդ տվյալներին։ Համակարգը տալիս է բոլոր այն գործիքները, որոնք
+                                        անհրաժեշտ են հեշտությամբ կառավարել բիզնեսը։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Առցանց ամրագրում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Օրվա սպասվող հյուրերի մասին հաշվետվություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Սենյակների հասանելիության բոլոր տվյալների դիտում՝ զբաղված է, ազատ է, նոր է
+                                            ազատվելու, կատարվում են մաքրման աշխատանքներ և այլն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Վճարների և կանխավճարների մասին մատչելի հաշվետվություն </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մաքրուհիների և այլ աշխատակիցների համար նախատեսված բջջային
+                                            հավելվածներ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Կապ ռեստորանի կառավարման համակարգի հետ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire7">
+                                <div class="area-text">
+                                    <h1>Էլեկտրոնային ուսուցում</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է առցանց կրթության և էլեկտրոնային
+                                        ուսուցման հարթակների համար նորարարական թվային լուծումներ: Համակարգում ներդրված
+                                        AI գործիքների միջոցով տրվել են լուծումներ թե օգտագործողի և թե օգտվողի համար։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Համակարգ դպրոցների և քոլեջների համար</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Համակարգ համալսարանների համար</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Համակարգ մանկապարտեզների համար</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Համակարգ ուսումնական կենտրոնների համար</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Տարաբնույթ ուսումնական բջջային հավելվածներ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire8">
+                                <div class="area-text">
+                                    <h1>Ծառայություններ</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմն առաջարկում է CRM համակարգ հաշվապահական բիզնեսի
+                                        համար, իրավաբանական ընկերությունների, բեռնափոխադրման և այլ ծառայություն մատուցող
+                                        ընկերությունների համար։ Ավտոմատացված ծրագրի միջոցով հեշտ և արագ կարող եք
+                                        կառավարել բիզնեսը առանց խափանումների։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ծրագրի կողմից մշտական հիշեցումներ հաշվետվությունների կամ
+                                            պայմանավորվածությունների վերաբերյալ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Վերահսկել ընկերության յուրաքանչյուր բաժին</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Անհրաժեշտ տվյալների հաշվետվության ներկայացում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Բջջային հավելվածներ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>օգտագործողակենտրոն ինտերֆեյս դիզայն</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire9">
+                                <div class="area-text">
+                                    <h1>Արտադրություն</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է CRM hամակարգ նախատեսված մեծածախ և
+                                        մանրածախ առևտրային գործունեություն իրականացնող ձեռնարկությունների կառավարման
+                                        համար։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Պահեստների վերահսկում և կառավարում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ֆինանսական միջոցների վերահսկում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հաշվետվությունների ավտամատացում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հաճախորդների պատվերների կառավարում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մատակարարման շղթայի համակարգում</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire10">
+                                <div class="area-text">
+                                    <h1>Առողջապահություն</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        Մենք հասկանում ենք առողջապահական ոլորտում ցանկացած տվյալների պաշտպանության
+                                        կարևորությունը: Մարկսոֆթ ընկերությունը ստեղծել է հիվանդանոցների համար
+                                        էլեկտրոնային առողջապահական գրառումներին (EHR-electronic health record)
+                                        համապատասխան CRM համակարգ, որը թույլ է տալիս աշխատանքը հեշտությամբ կազմակերպել։
+                                        Համակարգն առաջարկում է հիվանդների հերթագրման, բժիշկների զբաղվածության,
+                                        աշխատակիցների գրանցման և այլ տվյալների կառավարում։ Համակարգն ունի ինչպես
+                                        դեսկտոպ, այնպես էլ բջջային հավելված։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Բջջային հավելված
+
+                                        </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>AI-ի վրա հիմնված տվյալների վերլուծություն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Մատակարարման շղթայի կառավարում՝ պահեստ, դեղատուն</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հիվանդների հերթագրում, քարտերի դիտում՝ հիվանդության պատմություն </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Հիվանդանոցային աշխատանքի և գործընթացների օպտիմալացում</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-area" id="fire11">
+                                <div class="area-text">
+                                    <h1>Անշարժ գույք</h1>
+                                    <div class="area-line"></div>
+                                    <span>
+                                        «Մարկսոֆթ» ընկերության թիմը առաջարկում է ծրագիր, որը հնարավորություն է տալիս
+                                        լիարժեք կառավարել ձեր բիզնեսը անշարժ գույքի ոլորտում։ Համակարգում հարմար է
+                                        գույքի ցուցակները, թարմացումները և դիտումները կառավարելը: Բջջային հավելվածը
+                                        թույլ է տալիս գործակալներին ցանկացած պահի մուտք գործել համակարգ։ Ծրագիրը հագեցած
+                                        է AI գործիքներով։
+                                    </span>
+                                </div>
+                                <div class="area-application">
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Գործարքների համակարգում
+
+                                        </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Գույքի արդյունավետ կառավարում</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Ավտոմատացված ծառայություններ</span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Կատարողականության վերլուծություն </span>
+                                    </div>
+                                    <div class="app">
+                                        <div class="bfg">
+                                            <div class="app-back"></div>
+                                        </div>
+                                        <span>Անշարժ գույքի ցուցադրություն՝ ըստ համապատասխան տվյալների</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="aboute-map area-map">
+                <div class="wrapper-map">
+                    <div class="container-xxl py-5 aboute-xxl">
+                        <div class="content-areaMap">
+                            <div class=" wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                                <div class="contact-text">
+                                    <h1>կապ մեզ հետ</h1>
+                                    <span>Կարող եք կապ հաստատել մեզ հետ՝ լրացնելով ներքևում գտնվող ձևաթուղթը։</span>
+                                </div>
+                            </div>
+                            <div class="row g-4 map-row">
+
+                                <div class="col-md-6 wow fadeInUp mxs6" data-wow-delay="0.1s">
+                                    <div class="map">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.70727593976!2d44.49537987639356!3d40.19332746920549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd116e552b97%3A0xece921e4efaf21e6!2s53%20Marshal%20Baghramyan%20Ave%2C%20Yerevan%200019!5e0!3m2!1sru!2sam!4v1705911419364!5m2!1sru!2sam"
+                                            width="615" height="533" style="border:0;border-radius: 8px;"
+                                            allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ms48">
+                                    <div class="wow fadeInUp fafa" data-wow-delay="0.5s">
+
+                                        <div class="contact-form">
+                                            <div class="form-name name2 name3">
+                                                <h1>Գրեք Ձեր Հաղորդագրությունը</h1>
+                                            </div>
+                                            <form action="">
+                                                <div class="wrapper-form">
+
+                                                    <div class="wrapper-input">
+                                                        <span> Անուն Ազգանուն *</span>
+                                                        <input type="text" >
+                                                    </div>
+                                                    <div class="wrapper-input">
+                                                        <span> Էլ․հասցե * </span>
+                                                        <input type="text" >
+                                                    </div>
+                                                    <div class="wrapper-input">
+                                                        <span> Հեռ․ համար *</span>
+                                                        <input type="text" >
+                                                    </div>
+                                                    <div class="wrapper-input">
+                                                        <span> Հաղորդագրություն *</span>
+                                                        <textarea name="   Հաղորդագրություն *"></textarea>
+                                                    </div>
+                                                    <div class="wrapper-input-button">
+                                                        <button class="custom-btn btn-4 btn-5 form-btn">
+                                                            <span>Ուղարկել</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content1">
+                <div class="container-pathFooter">
+                    <div class="big-footer">
+                        <div class="footer-nav">
+                            <div class="footer-logo">
+                                <div class="footer-logo1"></div>
+                                <span>Software development company</span>
+                                <div class="line-medium"></div>
+                                <div class="footer-soc">
+                                    <div class="youtube"></div>
+                                    <div class="linkdin"></div>
+                                    <div class="facebook"></div>
+                                </div>
+                            </div>
+                            <div class="footer-navibar">
+                                <div class="content-footer-name">
+                                    <h1>Տեղեկատվություն</h1>
+                                </div>
+                                <ul class="navbar-footer-nav">
+                                    <li>
+                                        <a href="./aboute.html">Մեր մասին</a>
+                                    </li>
+                                    <li>
+                                        <a href="./service.html">Ծառայություններ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./Areas.html">Ոլորտներ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./programs.html">Ծրագրեր</a>
+                                    </li>
+                                    <li>
+                                        <a href="./jobs.html">Աշխատանք</a>
+                                    </li>
+                                    <li>
+                                        <a href="./courses.html">Դասընթացներ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-icon"></div>
+                            <div class="footer-contact">
+                                <div class="content-footer-name">
+                                    <h1>Կապ մեզ հետ</h1>
+                                </div>
+                                <div class="old">
+                                    <div class="content-contact-footer">
+                                        <div class="logo-div1"></div>
+                                        <span>+374 33 13 44 44</span>
+                                    </div>
+                                    <div class="content-contact-footer">
+                                        <div class="logo-div2"></div>
+                                        <span>info@marksoft.am</span>
+                                    </div>
+                                    <div class="content-contact-footer">
+                                        <div class="logo-div3"></div>
+                                        <span>ք․Երևան, Բաղրամյան 53</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer-logo hid968">
+                            <div class="footer-logo1"></div>
+                            <span>Software development company</span>
+                            <div class="line-medium"></div>
+                            <div class="footer-soc">
+                                <div class="youtube"></div>
+                                <div class="linkdin"></div>
+                                <div class="facebook"></div>
+                            </div>
+                        </div>
+                        <div class="line-con">
+                            <div class="footer-line"></div>
+                        </div>
+                        <div class="footer-end">
+                            <div class="footer-end">
+                                <div class="ent-text">
+                                    <span><a href="">Անվտանգություն</a></span>
+                                    <span><a href="">Կանոններ</a></span>
+                                    <span><a href="">Գաղտնիություն</a></span>
+                                </div>
+                                <div class="content-llc">©2024 ՄԱՐԿՍՈՖԹ ՍՊԸ։ Բոլոր իրավունքները պաշտպանված են։</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/areas.js"></script>
+</body>
+
+</html>

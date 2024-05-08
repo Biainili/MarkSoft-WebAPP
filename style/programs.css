@@ -1,0 +1,459 @@
+@font-face {
+    font-family: "Montserratarm-Regular";
+    src: url(../font/Montserratarm-Regular/Montserratarm-Regular.ttf);
+}
+
+body {
+    font-family: "Montserratarm-Regular";
+}
+
+.dropdown-menu {
+    background-color: var(--color-number1) !important;
+}
+
+.content-programs {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(../img/ProgramsPageView1920.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-bottom: unset;
+    flex-wrap: nowrap;
+}
+
+ul {
+    margin-bottom: unset;
+}
+
+
+
+h1 {
+    margin-bottom: 0;
+    font-family: unset;
+}
+
+.container-programss {
+    max-width: 1920px;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-inline: 10.5%;
+}
+
+.old-program {
+    max-width: 1920px;
+    width: 100%;
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+    margin-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.background-program {
+    max-width: 560px;
+    width: 100%;
+    min-height: 433px;
+    background-image: url(../img/logo-program.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+
+    opacity: 0;
+    animation: servRight 1s forwards ease-out !important;
+}
+
+@keyframes servRight {
+    0% {
+        margin-right: -762px;
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+
+    100% {
+        margin-right: 0;
+        opacity: 1;
+    }
+}
+
+    
+
+.new-align {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.program-text {
+    padding-right: unset;
+    padding-left: unset;
+    align-self: center;
+    --bs-gutter-x: unset !important;
+    opacity: 0;
+    animation: servLeft 1s forwards ease-out !important;
+}
+
+@keyframes servLeft {
+    0% {
+        margin-left: -662px;
+
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+
+.new-text {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-number6);
+    text-transform: uppercase;
+}
+
+.slideInLeft span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-number10);
+}
+
+.into-text {
+    max-width: 462px;
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width:1440px) {
+    .radius-prog {
+        width: clamp(560px, 5vw, 350px);
+    }
+
+    .wrapper-flex {
+        margin-top: -25px;
+    }
+
+    .radius-text {
+        margin-left: 457px;
+    }
+
+    .text-backRadius {
+        margin-right: 474px;
+    }
+
+    .new-prog {
+        background-position: 87% 31% !important;
+    }
+
+    .radius-prog {
+        background-size: 79%;
+        background-position: 11% 31%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .radius-prog {
+        width: clamp(350px, 5vw, 350px);
+    }
+
+    .radius-text {
+        margin-left: 297px;
+    }
+
+    .text-backRadius {
+        margin-right: 298px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .con-btn-program,
+    .con-btn-program1 {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .program-colum {
+        flex-direction: column;
+    }
+
+    .radius-prog {
+        width: clamp(538px, 5vw, 350px);
+        position: unset;
+        background-position: 31% 31%;
+    }
+
+    .radius-text {
+        position: unset;
+        margin-left: unset;
+        width: clamp(478px, 5vw, 225px);
+        margin-top: -28px;
+    }
+
+    .text-backRadius {
+        position: unset;
+        margin-right: unset;
+        width: clamp(478px, 5vw, 225px);
+        margin-top: -28px;
+    }
+
+    .new-prog {
+        background-position: 45% 29% !important;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .radius-prog {
+        width: clamp(380px, 5vw, 350px);
+        background-size: 90%;
+    }
+
+    .radius-text,
+    .text-backRadius {
+        width: clamp(341px, 5vw, 225px);
+    }
+}
+
+@media screen and (max-width:400px) {
+    .radius-prog {
+        width: clamp(272px, 5vw, 350px);
+    }
+
+    .radius-text,
+    .text-backRadius {
+        width: clamp(244px, 5vw, 225px);
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+    .content-programs {
+        background-image: url(../img/ProgramsPageView1440.svg);
+    }
+
+    .navbar {
+        padding-inline: 10.5%;
+        padding-top: 52px;
+    }
+
+    .crm-img {
+        max-width: 560px;
+    }
+
+    .into-text {
+        max-width: 439px;
+        width: 100%;
+    }
+
+    .mb-5 {
+        margin-bottom: -1rem !important;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .content-programs {
+        background-image: url(../img/ProgramsPageView1280.svg);
+    }
+
+    .new-align {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .background-program {
+        margin-left: -70px;
+    }
+
+    .new-align {
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+
+    .container-programss {
+        padding-inline: 150px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:991px) {
+    .content-programs {
+        background-image: url(../img/ProgramsPageView968.svg);
+    }
+
+    .new-align {
+        flex-direction: column-reverse;
+        gap: 49px;
+    }
+
+
+    .container-programss {
+        padding-inline: 0px;
+        max-width: 560px;
+        width: 100%;
+    }
+
+    .row>* {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .mb-5 {
+        margin-bottom: 0rem !important;
+    }
+
+    .into-text {
+        max-width: 360px;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:678px) {
+    .content-programs {
+        background-image: url(../img/ProgramsPageView678.svg);
+    }
+
+
+    .background-program {
+        background-image: url(../img/logo-program6.svg);
+        margin: auto;
+
+    }
+
+    ul {
+        padding-left: 0rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:428px) {
+    .content-programs {
+        background-image: url(../img/ProgramsPageView428.svg);
+    }
+
+
+
+    .new-text {
+        font-size: 30px;
+    }
+
+
+
+    .old-program {
+        margin-top: 67px;
+    }
+
+
+    .background-program {
+        background-image: url(../img/logo-program4.svg);
+        min-height: 284px;
+    }
+
+    .row>* {
+        width: 100%;
+        max-width: 89%;
+    }
+
+    .into-text {
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .new-align {
+        gap: 56px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    .background-program {
+        min-height: 204px;
+    }
+
+    .new-text {
+        font-size: 24px;
+    }
+
+    .new-align {
+        gap: 40px;
+    }
+
+    .row>* {
+        width: 100%;
+        max-width: 100%;
+        padding-inline: 24px;
+    }
+
+    .background-program {
+        width: 100%;
+        max-width: 85%;
+    }
+
+    .new-text {
+        margin-bottom: 0rem !important;
+    }
+
+
+
+
+
+    .erm-text {
+        max-width: 233px;
+    }
+
+
+}

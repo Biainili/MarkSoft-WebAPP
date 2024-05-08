@@ -1,0 +1,210 @@
+.content-registrCourse {
+    max-width: 1920px;
+    width: 100%;
+    min-height: 1057px;
+    background-image: url(../img/RegisterCoursesPageView1920.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registr-section {
+    max-width: 1920px;
+    width: 100%;
+    margin: 80px auto;
+    padding-inline: 10.5%;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 618px;
+    width: 100%;
+    min-height: 641px;
+    background-color: var(--color-number1);
+    box-shadow: 0px 6px 6px 1px var(--color-number16);
+    margin: auto;
+}
+
+.reg h1 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-number9);
+    margin-top: 23px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 396px;
+    width: 100%;
+}
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 30px;
+    max-width: 369px;
+    width: 100%;
+    padding-inline: 15px;
+}
+
+.reg-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.reg-info span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-number12);
+    align-self: flex-start;
+}
+
+.d-arrow {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/down-arrow_74653191.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 34px;
+    left: 89%;
+}
+
+.reg-info input {
+    max-width: 396px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 8px;
+    padding: 12px 16px 12px 16px;
+    box-shadow: 0px 0px 8px 0px var(--color-number2);
+    border: none;
+    outline: none;
+    transition:all .3s ease-in 0s;
+    color: var(--color-number12);
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+.btn-reg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.reg-info input:hover{
+    border: 1px solid #FFB25F;
+    box-shadow: 0px 0px 8px 0px #F96B31;
+
+}
+.reg-info input:focus-visible{
+    border: 1px solid #FF9149B2;
+}
+@media screen and (max-width:1440px) {
+    .content-registrCourse{
+        background-image: url(../img/RegisterCoursesPageView1440.svg);
+    }
+}
+@media screen and (max-width:1280px) {
+    .content-registrCourse{
+        background-image: url(../img/RegisterCoursesPageView1280.svg);
+    }
+}
+@media screen and (max-width:968px) {
+    .content-registrCourse{
+        background-image: url(../img/RegistrationPageView968.svg);
+    }
+}
+@media screen and (max-width:678px) {
+    .wrapper-approv span,.wrapper-approv h1{
+        text-align: center !important;
+    }
+    .reg{
+        min-height: 676px;
+    }
+    .d-arrow{
+        left: 87%;
+    }
+    .reg-info{
+        align-items: center;
+    }
+    .reg-info input {
+        max-width: 350px;
+        width: 100%;
+    }
+    .reg h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .content-registrCourse{
+        background-image: url(../img/RegistrationPageView678.svg);
+    }
+}
+@media screen and (max-width:428px) {
+    .content-registrCourse{
+        background-image: url(../img/RegistrationPageView320.svg);
+    }
+}
+@media screen and (max-width:320px) {
+    .content-registrCourse{
+        background-image: url(../img/RegistrationPageView320.svg);
+    }
+}
+.container-approvid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 93px;
+    max-width: 1920px;
+    width: 100%;
+    padding-inline: 10.5%;
+    margin-top: 80px;
+}
+.wrapper-approv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrapper-approv h1{
+    color: #F3F3F3;
+
+font-size: 38px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.wrapper-approv span{
+    color: #FFFFFFB2;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.approvid-img{
+    max-width: 198px;
+    width: 100%;
+    min-height: 201px;
+    background-image: url(../img/aaaa.svg);
+    background-position: center;
+    background-size: cover;
+}
